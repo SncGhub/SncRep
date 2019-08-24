@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_378698_hotel.maintenance_user" name="x_378698_hotel.maintenance_user">d404af222f9333002905f3ecf699b609</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-19 15:13:22</sys_created_on>
+        <sys_id>5f34ebee2f5333002905f3ecf699b667</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d404af222f9333002905f3ecf699b609</sys_name>
+        <sys_package display_value="Hotel" source="x_378698_hotel">6c9e84c32fb233002905f3ecf699b6c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel">6c9e84c32fb233002905f3ecf699b6c2</sys_scope>
+        <sys_update_name>sys_embedded_help_role_5f34ebee2f5333002905f3ecf699b667</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-19 15:13:22</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

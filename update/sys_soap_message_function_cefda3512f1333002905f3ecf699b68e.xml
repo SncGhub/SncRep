@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_soap_message_function">
+    <sys_soap_message_function action="INSERT_OR_UPDATE">
+        <authentication_type/>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <certificate/>
+        <enable_mutual_auth>false</enable_mutual_auth>
+        <envelope><![CDATA[<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:task">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <urn:status soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+         <number xsi:type="xsd:string">${number}</number>
+      </urn:status>
+   </soapenv:Body>
+</soapenv:Envelope>]]></envelope>
+        <function_name>status</function_name>
+        <key_store/>
+        <key_store_alias/>
+        <key_store_password/>
+        <lock>false</lock>
+        <protocol_profile/>
+        <qualified_name>CHS SOAP [ status ]</qualified_name>
+        <soap_action>urn:tasks#status</soap_action>
+        <soap_endpoint>http://www.gardiner-hotels.com/chs/soap/index.php</soap_endpoint>
+        <soap_message display_value="CHS SOAP">ec1d6bd12f1333002905f3ecf699b60f</soap_message>
+        <strip_whitespace>false</strip_whitespace>
+        <sys_class_name>sys_soap_message_function</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-15 18:43:28</sys_created_on>
+        <sys_id>cefda3512f1333002905f3ecf699b68e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>status</sys_name>
+        <sys_package display_value="Hotel" source="x_378698_hotel">6c9e84c32fb233002905f3ecf699b6c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel">6c9e84c32fb233002905f3ecf699b6c2</sys_scope>
+        <sys_update_name>sys_soap_message_function_cefda3512f1333002905f3ecf699b68e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-15 18:43:28</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_ws_security>false</use_ws_security>
+        <ws_security_type/>
+        <ws_security_username_profile/>
+        <ws_security_x509_profile/>
+    </sys_soap_message_function>
+</record_update>

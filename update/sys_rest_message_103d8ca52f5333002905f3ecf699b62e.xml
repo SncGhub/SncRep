@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
+    <sys_rest_message action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <authentication_type>no_authentication</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <description>Outbound REST Message Testing</description>
+        <name>CHS REST</name>
+        <oauth2_profile/>
+        <protocol_name/>
+        <rest_endpoint>http://www.gardiner-hotels.com/chs/rest</rest_endpoint>
+        <sys_class_name>sys_rest_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-15 21:01:25</sys_created_on>
+        <sys_id>103d8ca52f5333002905f3ecf699b62e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>CHS REST</sys_name>
+        <sys_package display_value="Hotel" source="x_378698_hotel">6c9e84c32fb233002905f3ecf699b6c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel">6c9e84c32fb233002905f3ecf699b6c2</sys_scope>
+        <sys_update_name>sys_rest_message_103d8ca52f5333002905f3ecf699b62e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-15 23:49:34</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message>
+</record_update>

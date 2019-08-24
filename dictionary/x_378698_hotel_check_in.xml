@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Check-in" max_length="40" name="x_378698_hotel_check_in" type="collection">
+        <element display="true" label="Comments" max_length="500" name="comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date" max_length="40" name="date" type="glide_date"/>
+        <element dynamic_ref_qual="03d62a2c2f8333002905f3ecf699b6bc" label="Guest" max_length="32" name="guest" reference="x_378698_hotel_guest" reference_qual="javascript:'sys_idIN'+x_378698_hotel.guestsWithReservations()" type="reference" use_reference_qualifier="dynamic"/>
+        <element label="Room" max_length="32" name="room" reference="x_378698_hotel_room" type="reference"/>
+        <index name="index">
+            <element name="guest"/>
+        </index>
+        <index name="index2">
+            <element name="room"/>
+        </index>
+    </element>
+</database>

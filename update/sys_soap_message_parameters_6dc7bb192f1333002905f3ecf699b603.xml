@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_soap_message_parameters">
+    <sys_soap_message_parameters action="INSERT_OR_UPDATE">
+        <name>room</name>
+        <soap_function display_value="create">cefda3512f1333002905f3ecf699b68c</soap_function>
+        <sys_class_name>sys_soap_message_parameters</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-15 19:26:34</sys_created_on>
+        <sys_id>6dc7bb192f1333002905f3ecf699b603</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>room</sys_name>
+        <sys_package display_value="Hotel" source="x_378698_hotel">6c9e84c32fb233002905f3ecf699b6c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel">6c9e84c32fb233002905f3ecf699b6c2</sys_scope>
+        <sys_update_name>sys_soap_message_parameters_6dc7bb192f1333002905f3ecf699b603</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-15 19:26:34</sys_updated_on>
+        <type>string</type>
+        <value>1010</value>
+    </sys_soap_message_parameters>
+</record_update>
